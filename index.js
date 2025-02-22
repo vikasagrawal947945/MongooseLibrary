@@ -44,12 +44,12 @@ book1.save().then(res=>{
   // }).catch((err)=>{
   //    console.log(err);
   // })
-   let  id = "67b3057a3b96780971acaf89"
-  book.findByIdAndUpdate( "67b3057a3b96780971acaf89" , { title : "vikas"}).then(res=>{
-    console.log(res);
-  }).catch((err) =>{
-     console.log(err);
-  })
+  //  let  id = "67b3057a3b96780971acaf89"
+  // book.findByIdAndUpdate( "67b3057a3b96780971acaf89" , { title : "vikas"}).then(res=>{
+  //   console.log(res);
+  // }).catch((err) =>{
+  //    console.log(err);
+  // })
 
 /* book.insertMany([
   {
